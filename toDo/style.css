@@ -1,0 +1,76 @@
+body {
+    color: white;
+    background-color: black;
+  }
+  
+  header {
+    padding: 20px;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    letter-spacing:10px;
+  }
+  
+  .main-container{
+    padding; 10px;
+    position: static;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  
+  }
+  
+  .small-container {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    padding:10px 0;
+    list-style:none;
+    text-align:center;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+  
+  }
+   li {
+     padding: 2px;
+    text-decoration:none;
+   }
+  
+  li:hover {
+    text-decoration: underline;
+  
+  }
+   li.new-item {
+          opacity: 0;
+          animation: fadeIn .4s linear forwards;
+      }
+  
+  @keyframes fadeIn {
+      to {
+          opacity: 1;
+      }
+  }
+  
+  
+  .btn {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: white;
+    color: red;
+  
+  }
+  

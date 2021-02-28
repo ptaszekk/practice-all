@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../passwordGen"
+		},
+		{
+			"path": "../../baking assistant"
+		},
+		{
+			"path": "../../../../Desktop/npm-APP"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practice objects"
+	}
+}
